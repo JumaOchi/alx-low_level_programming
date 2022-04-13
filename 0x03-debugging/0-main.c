@@ -1,10 +1,7 @@
-
-
 #include "main.h"
 /**
- * main - main
- * Return: 0
- */
+* main - tests function that ppprints if integer is positiv* Return: 0
+*/
 
 int main(void)
 {
@@ -14,5 +11,5 @@ i = 0;
 positive_or_negative(i);
 
 return (0);
-}
 
+}
