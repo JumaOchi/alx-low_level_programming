@@ -1,6 +1,7 @@
 #include "main.h"
 /**
-* main - tests function that ppprints if integer is positiv* Return: 0
+* main - main
+* Return: 0
 */
 
 int main(void)
