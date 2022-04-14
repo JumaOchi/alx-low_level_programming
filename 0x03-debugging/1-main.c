@@ -14,13 +14,11 @@ i = 0;
 
 /*
 *while (i < 10)
- {
-*Infinite loop - No increase of variable
-*putchar(1);
- }
+*{
+*Infinite loop - No increase of variablle
+*putchar(i);
+}
 */
-
-printf("Infinite loop avoided! \\0/\n");
-
+printf("Infinite loop avoided! \\o/\n");
 return (0);
 }
