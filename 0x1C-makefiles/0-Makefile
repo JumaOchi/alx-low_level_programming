@@ -1,9 +1,4 @@
+# This is a Makefile
 
-school : school.o main.o
-	gcc -o school school.o main.o
-
-school.o : school.c m.h
-	gcc -c school.c -o school.o
-
-main.o : main.c m.h
-	gcc -c main.c -o main.o
+all:
+	gcc main.c school.c -o school
